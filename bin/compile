@@ -11,9 +11,9 @@ set -e
 # set -x
 
 # parse and derive params
-# BUILD_DIR=${1:-}
+BUILD_DIR=${1:-}
 CACHE_DIR=${2:-}
-# ENV_DIR=${3:-}
+#ENV_DIR=${3:-}
 
 function topic() {
   echo "-----> $*"
